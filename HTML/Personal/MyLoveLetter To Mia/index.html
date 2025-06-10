@@ -22,7 +22,7 @@
     <link rel="'favicon" href="./kiss.gif" type="image/gif">
     <link rel="icon" href="./kiss.gif" type="image/gif">
     <link rel="stylesheet" href="Styles.css">
-    <link rel="JavaScript" href="./scripts.js">
+
 </head>
 <body>
     <header>
@@ -110,15 +110,14 @@
                 title="Left booby"
                 id="Left booby"
                 style="cursor: grab;"
-                onclick="alert('You clicked on the left booby!');"
+                onclick="toggleCursorLeft();"
             />
             <area shape="circle" coords="152,162,18" 
                     alt="Right booby" 
                     title="Right booby" 
                     id="Right booby" 
-                    
                     style="cursor: grab;" 
-                    onclick="alert('You clicked on the right booby!');"
+                    onclick="toggleCursorRight();"
             />
         </map>
         <h1>My love</h1>
@@ -186,6 +185,7 @@
 
         }
         </style>
+        <script src="scripts.js"></script>
  
 </body>
 
