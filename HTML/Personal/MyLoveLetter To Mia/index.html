@@ -21,6 +21,7 @@
     <meta charset="UTF-8">
     <link rel="'favicon" href="./kiss.gif" type="image/gif">
     <link rel="icon" href="./kiss.gif" type="image/gif">
+    <link rel="stylesheet" href="Styles.css">
 </head>
 <body>
     <header>
@@ -101,7 +102,12 @@
         }
     </style>
     <main>
-        <img src="./MIa.png" alt="Image of my love" style="width:250px;">
+        <img src="./MIa.png" alt="Image of my love" style="width:250px;" usemap="#myMap">
+        <map name="myMap">
+               <area target="_blank" alt="Right booby" title="Right booby" href="" coords="91,140,114,171 " shape="rect" id="booby1" style="cursor: grab;">
+               <area shape="circle" coords="152,162,18" alt="Left booby" href="" title="Left booby" target="_blank" id="Left booby" style="cursor: grab;">
+
+        </map>
         <h1>My love</h1>
         <p>My love,</p>
         <p>From the moment I met you, my life changed forever. You are the light that brightens my days and the reason for my smiles. Your love is a treasure I cherish every day.</p>
@@ -119,6 +125,7 @@
         console.log("Welcome to my love letter page!");
     </script>
     <style>
+    
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
@@ -160,6 +167,9 @@
             max-width: 100%;
             height: auto;
             border-radius: 10px;
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+
+
 
         }
         </style>
