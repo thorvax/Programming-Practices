@@ -22,6 +22,7 @@
     <link rel="'favicon" href="./kiss.gif" type="image/gif">
     <link rel="icon" href="./kiss.gif" type="image/gif">
     <link rel="stylesheet" href="Styles.css">
+    <link rel="JavaScript" href="./scripts.js">
 </head>
 <body>
     <header>
@@ -104,9 +105,21 @@
     <main>
         <img src="./MIa.png" alt="Image of my love" style="width:250px;" usemap="#myMap">
         <map name="myMap">
-               <area target="_blank" alt="Right booby" title="Right booby" href="" coords="91,140,114,171 " shape="rect" id="booby1" style="cursor: grab;">
-               <area shape="circle" coords="152,162,18" alt="Left booby" href="" title="Left booby" target="_blank" id="Left booby" style="cursor: grab;">
-
+            <area shape="rect" coords="91,140,114,171"
+                alt="Left booby"
+                title="Left booby"
+                id="Left booby"
+                style="cursor: grab;"
+                onclick="alert('You clicked on the left booby!');"
+            />
+            <area shape="circle" coords="152,162,18" 
+                    alt="Right booby" 
+                    title="Right booby" 
+                    id="Right booby" 
+                    
+                    style="cursor: grab;" 
+                    onclick="alert('You clicked on the right booby!');"
+            />
         </map>
         <h1>My love</h1>
         <p>My love,</p>
