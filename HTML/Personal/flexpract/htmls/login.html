@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login</title>
+        <link rel="stylesheet" href="../styles/login_Style.css">
+    
+       
+
+    </head>
+
+
+    <body>
+        <main>
+            <div class="containerLogin">
+                <h1>Login</h1>
+                <form action="/submit-login" method="post">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required placeholder="Enter your username">
+
+                    <label for="password">Password:</label>
+                    <input 
+                        type="password" 
+                        id="password" 
+                        name="password" 
+                        required 
+                        placeholder="Enter your password"
+                        pattern=".{6,}"
+                        title="Password must be at least 6 characters long"
+                        >
+                    <div class = "buttons">
+                    <button type="submit" id="LoginButton" >Login</button>
+                    <button type="reset" id="resetButton">Reset</button>
+                    <input type="checkbox" id="rememberMe" name="rememberMe" value="Remember me">
+                    <script>
+                        onsubmit = function() {
+                            var username = document.getElementById("username").value;
+                            var password = document.getElementById("password").value;
+                            if (username === "" || password === "") {
+                                alert("Please fill in all fields.");
+                                return false; // Prevent form submission
+                            } else if (password.length <= 10) {
+                                alert("Password must be at least 6 characters long.");
+                                return false; // Prevent form submission
+
+                            }
+                            return true; // Allow form submission
+                        };
+                    </script>
+                    </div> 
+                </form>
+            </div>
+        </main>
+    </body>

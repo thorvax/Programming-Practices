@@ -1,0 +1,56 @@
+.containerLogin {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #d4f1f1;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    color: #ae3333;
+}
+.containerLogin h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.containerLogin form {
+    display: flex;
+    flex-direction: column;
+}
+.containerLogin label {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.containerLogin input[type="text"],
+.containerLogin input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ada5a5;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+#LoginButton, #resetButton {
+    width: 100%;
+    padding: 10px;
+    background-color: #ae3333;   /* Red tone */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 2px ;
+}
+
+#LoginButton:hover, #resetButton:hover {
+    background-color: #8b2a2a;   /* Darker red on hover */
+}
+#LoginButton:active, #resetButton:active {
+    background-color: #6f2222;   /* Even darker red on click */
+    transform: scale(0.95);
+}
+
+
+
+
+
+
