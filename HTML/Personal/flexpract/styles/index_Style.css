@@ -1,0 +1,27 @@
+.container-main {
+    max-width: 1200px;
+    margin: 20;
+    padding: 20px;
+    background-color: #6d94bc;
+    color: #903636;
+}
+.code-example {
+    display: block;
+    padding: 10px;
+    margin: 20px 0;
+    background-color: #dddddd;
+    border-left: 4px solid #007bff;
+    overflow-x: auto;
+    color: #361c09;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:large;
+    
+}
+
+footer {
+/* margin: 20px 0; */
+background-color: #89a5c155;
+padding: 20px;
+text-align: center;
+
+}
