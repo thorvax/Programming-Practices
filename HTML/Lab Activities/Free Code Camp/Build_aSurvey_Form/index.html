@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Survey Form</title>
+        <link rel="stylesheet" href="indexStyle.css" />
+    </head>
+    <body>
+        <header>
+            <h1 id="title">FreeCodeCamp Survey Form</h1>
+            <p id="description">
+                Thank you for taking the time to help us imporve the platform
+            </p>
+        </header>
+        <form id="survey-form">
+            <div class="personal-info">
+                <label for="name" id="name-label">Name</label>
+                <input type="text" id="name" placeholder="Enter your name" required />
+                <label for="email" id="email-label">Email</label>
+                <input type="email" id="email" placeholder="Enter your Email" required />
+                <label for="number" id="number-label">Age (optional)</label>
+                <input type="number" id="number" placeholder="Age" min="3" max="100" />
+            </div>
+
+
+            <div class="dropdown-group">
+                    <label for="dropdown">Which option best describes your current role?</label>
+                    <select name="" id="dropdown" >Which option best describes your current role?
+                        <option disabled selected>Select your current role</option>
+                        <option value="student">Student</option>
+                        <option value="full-time-job">Full Time Job</option>
+                        <option value="full-time-learner">Full Time Learner</option>
+                        <option value="prefer-not-to-say">Prefer not to say</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+            
+
+            <div class="radio-group">
+                <label>Would you recommend FreeCodeCamp to a friend?</label>
+                <div class="radio-options">
+                    <input type="radio" name="recommend" id="radio-definitely" value="Definitely" />
+                    <label for="radio-definitely">Definitely</label>
+
+                    <input type="radio" name="recommend" id="radio-maybe" value="maybe" />
+                    <label for="radio-maybe">Maybe</label>
+
+                    <input type="radio" name="recommend" id="radio-notSure" value="Not sure" />
+                    <label for="radio-notSure">Not sure</label>
+                </div>
+            </div>
+
+
+            <div class="dropdown-group">
+                <label for="dropdown">What is your favorite feature of FreeCodeCamp</label>
+                <select name="" id="dropdown">
+                    <option disabled selected>Select an option</option>
+                    <option value="Challenges">Challenges</option>
+                    <option value="Projects">Projects</option>
+                    <option value="Community">Community</option>
+                    <option value="Open Source">Open Source</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+
+
+            <div class="checkbox-group">
+                <label for="checkbox">What Would you like to see improved? (Check all that apply)</label>
+                <div class="checkbox-options">
+                    <input type="checkbox" name="checkbox" id="checkbox1" value="Front-end Projects" />
+                    <label for="checkbox1">Front-end Projects</label>
+
+                    <input type="checkbox" name="checkbox" id="checkbox2" value="Back-end Projects" />
+                    <label for="checkbox2">Back-end Projects</label>
+
+                    <input type="checkbox" name="checkbox" id="checkbox3" value="Data Visualization" />
+                    <label for="checkbox3">Data Visualization</label>
+
+                    <input type="checkbox" name="checkbox" id="checkbox4" value="Challenges" />
+                    <label for="checkbox4">Challenges</label>
+
+                    <input type="checkbox" name="checkbox" id="checkbox5" value="Open Source Community" />
+                    <label for="checkbox5">Open Source Community</label>
+
+            </div>
+            
+
+            <div class="comments">
+                <label for="comments">Any comments or suggestions?</label>
+                <textarea id="comments" rows="5" placeholder="Enter your comments here"></textarea>
+            </div>
+            <button type="submit" id="submit">Submit</button>
+        </form>
+    </body>
+</html>
