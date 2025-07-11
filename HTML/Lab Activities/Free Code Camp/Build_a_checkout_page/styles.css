@@ -1,0 +1,6 @@
+.payment-form {
+  display: flex;
+  flex-direction: column;
+  align-items: start;  
+  width: 400px;
+}

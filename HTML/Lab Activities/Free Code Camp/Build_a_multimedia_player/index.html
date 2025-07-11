@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Multimedia Player</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <header>
+            <h1>Multimedia Player</h1>
+        </header>   
+        <main>
+            <section>
+                <h2>Now Playing: Sailing Away</h2>
+                <audio 
+                    controls 
+                    aria-label="Audio Player" 
+                    width="300px"
+                >
+                <source
+                    src="https://cdn.freecodecamp.org/curriculum/js-music-player/sailing-away.mp3"
+                    type="audio/mpeg"
+                />
+                </audio>
+            </section>
+            
+            <section>
+                <h2>What is the map method and how does it work</h2>
+                
+                <video 
+                    type="video/mp4"
+                    controls
+                    aria-label="Video Player"
+                    width="600px"
+                >
+                    <source 
+                        src="https://cdn.freecodecamp.org/curriculum/labs/What is the map method and how does it work.mp4"
+                        type="video/mp4"
+
+                    />
+                    <track src="https://cdn.freecodecamp.org/curriculum/labs/What is the map method and how does it work.vtt" 
+                        kind="subtitles" 
+                        srclang="en" 
+                        label="English Subtitles">
+                    </track>
+                    Your browser does not support the video tag.
+                </video>
+
+                
+            </section>
+            
+            <section>
+                <h2>Transcript</h2>
+                <P>
+                    The map method is a powerful tool in JavaScript that allows you to transform an array by applying a function to each element. It creates a new array with the results of calling the provided function on every element in the original array. This method is particularly useful for data manipulation and transformation tasks.
+                    <br><br>
+                    The syntax for the map method is as follows:
+                    <code>array.map(callback(currentValue[, index[, array]])[, thisArg])</code>
+                    <br><br>
+                    Here, <code>callback</code> is a function that is called for each element in the array. It takes three arguments: <code>currentValue</code> (the current element being processed), <code>index</code> (the index of the current element), and <code>array</code> (the original array). The <code>thisArg</code> parameter is optional and can be used to set the value of <code>this</code> inside the callback function.
+                    <br><br>
+                    The map method returns a new array containing the results of applying the callback function to each element of the original array. It does not modify the original array.
+                    <br><br>
+                    Here’s a simple example to illustrate how the map method works:
+                    <pre>
+                        const numbers = [1, 2, 3, 4, 5];
+                        const doubled = numbers.map(num => num * 2);
+                        console.log(doubled); // Output: [2, 4, 6, 8, 10]
+                    </pre>
+                    In this example, we have an array of numbers, and we use the map method to
+                    create a new array called <code>doubled</code> that contains each number multiplied by 2. The original array <code>numbers</code> remains unchanged.
+                    <br><br>
+                </P>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2023 Multimedia Player</p>
+        </footer>
+    </body>
+</html>

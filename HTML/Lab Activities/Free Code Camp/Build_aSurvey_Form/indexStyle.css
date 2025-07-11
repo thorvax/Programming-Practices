@@ -1,0 +1,38 @@
+.personal-info {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.radio-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  align-items: space-between;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 10px;
+  min-width: 450px;
+}
+
+.dropdown-group {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-bottom: 10px;
+}
+
+
+
+.comments {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <meta charset="UTF-8" />
+        <title>Checkout Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <main>
+            <h1>Checkout Page</h1>
+            <section>
+                <h2>Your Cart</h2>
+                <figure>
+                    <img src="https://cdn.freecodecamp.org/curriculum/labs/cube.jpg" alt="An image of a rubix cube" />
+                    <figcaption>
+                        <h3>Rubik's Cube</h3>
+                        <p>Price: $10.00</p>
+                        <p>Quantity: 1</p>
+                        <p>Total: $10.00</p>
+                    </figcaption>
+                </figure>
+            </section>
+            <section>
+                <h2>
+                    Payment Information
+                </h2>
+                <form action="" class="payment-form">
+                    <label for="card-name">Cardholder Name</label>
+                    <input 
+                        type="text" 
+                        name="card-name" 
+                        placeholder="Name on Card" 
+                        required 
+                        id="card-name"
+                        aria-required="true"
+                    />
+                    
+                    <label for="card-number">Card Number</label>
+                    <input 
+                        type="number" 
+                        name="card-number" 
+                        placeholder="1234 5678 9012 3456" 
+                        required 
+                        id="card-number"
+                        aria-required="true"
+                    />
+
+                    <label for="expiryDate">Expiry Date</label>
+                    <input 
+                        type="month" 
+                        name="expiryDate"
+                        required id="expiryDate"
+                        placeholder="MM/YY"
+                        aria-required="true"
+                    />
+
+                    <label for="cvv">CVV</label>
+                    <input
+                        type="number" 
+                        name="cvv" 
+                        placeholder="123" 
+                        required 
+                        id="cvv"
+                        aria-required="true"
+                    />
+                    <button type="submit">Place Order</button>
+                    
+                    
+                </form>
+            </section>
+
+
+        </main>
+        <footer>
+
+        </footer>
+    </body>
+</html>
