@@ -1,3 +1,12 @@
 {
-    "livePreview.defaultPreviewPath": "/Lab Activities/Free Code Camp/CSS_shits/Build_a_Stylized_To-Do_list/index.html"
+    "livePreview.defaultPreviewPath": "/Lab Activities/Free Code Camp/CSS_shits/Build_a_Stylized_To-Do_list/index.html",
+    "C_Cpp.default.compilerPath": "C:/msys64/ucrt64/bin/gcc.exe",
+    "workbench.colorTheme": "Visual Studio Dark - C++",
+    "git.autofetch": true,
+"php.validate.executablePath": "C:\\xampp\\php\\php.exe",
+    "php.executables": {
+    
+        
+    },
+    "dart.flutterSdkPath": "C:\\src\\flutter"
 }
