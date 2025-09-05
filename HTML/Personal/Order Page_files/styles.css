@@ -1,0 +1,64 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+}
+
+body{
+    background-color: burlywood;
+    min-width: 500px;
+}
+main {
+    margin: 10% 20%;
+    padding-top:10px ;
+    padding-bottom:20px;
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+}
+hr{
+    color: bisque;
+    height: 2px;
+    background-color: bisque;
+    margin: 2% 10% 2% 10%;
+    border-radius: 2px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+}
+.order-section {
+    display: flex;
+    flex-direction: column;
+}
+.order-section .item{
+    margin: 10px;
+}
+
+.order-section .button-container {
+    display: flex;
+    flex-direction: row;
+}
+
+
+button{
+    margin-left: 10px;
+    border: none;
+    background-color: rgb(240, 182, 161);
+    border-radius: 10px;
+    padding: 5px 20px 5px 20px;
+    color: rgb(74, 74, 74);
+    font-weight: 600;
+    box-shadow: 2px 2px 2px rgb(201, 181, 143);
+    border: 1px solid rgb(242, 222, 159); 
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(193, 142, 124);
+
+}

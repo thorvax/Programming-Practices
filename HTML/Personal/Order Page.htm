@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Order%20Page_files/styles.css">
+
+    <title>Order Page</title>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <div>
+            <div id="header"><h1>Order</h1></div>
+                <hr>
+            <div class="order-section">
+                
+                <form action="index.php" method="post">
+                    <div class="item">
+                        <label for="chickenFlavors">Chicken Flavors:</label>
+                        <select name="chicken flavors" id="chickenFlavors">
+                            <option value="Original" selected="selected">Original</option>
+                            <option value="Yangyeom">Yangyeom</option>
+                            <option value="Sweet and spicy">Sweet and spicy</option>
+                            <option value="Buffalo">Buffalo</option>
+                            <option value="Soy Sauce">Soy Sauce</option>
+                        </select> 
+                    </div>
+                    <div class="item">
+                        <label for="quantity">Quantity</label>
+                        <input type="number" max="32" min="3">
+                    </div>
+                    <div class="button-container">
+                        <button type="submit" class="order-button">Order</button>
+                        <button type="">Clear</button>
+
+                    </div>
+                    
+
+                </form>
+            </div>
+        </div>
+
+    </main>
+
+</body></html>
